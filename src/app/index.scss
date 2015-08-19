@@ -2,7 +2,7 @@
  *  If you want to override some foundation settings, you have to change values here.
  *  The list of settings values are listed here bower_components/foundation/scss/foundation/_settings.scss
  */
-$topbar-bg-color: #5AADBB;
+@import 'theme/foundation_overrides';
 
 /**
  *  The import of foundation is made manually because there is still no links of the
@@ -36,6 +36,8 @@ $topbar-bg-color: #5AADBB;
     width: 50px;
   }
 }
+
+@import 'theme/globals';
 
 /**
  *  Do not remove this comments bellow. It's the markers used by gulp-inject to inject
